@@ -12,10 +12,6 @@ public class LaunchApp {
 		@Test
 		public void launchUrl() throws InterruptedException {
 
-
-			
-//  		System.setProperty("webdriver.chrome.driver", "D:\\Users\\rkumar4\\Workspace\\CICD_selenium\\resources\\chromedriver.exe");
-
 			System.setProperty("webdriver.chrome.driver", "./resources/chromedriver.exe");
 			
 			WebDriver driver = new ChromeDriver();			
@@ -26,7 +22,6 @@ public class LaunchApp {
 			
 			driver.close();
 			driver.quit();
-//			Jenkins job trigger
 			
 		}
 
