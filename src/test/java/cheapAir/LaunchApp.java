@@ -24,7 +24,7 @@ public class LaunchApp {
 			
 			driver.close();
 			driver.quit();
-//			Jenkins job trigger test
+//			Jenkins job trigger
 			
 		}
 
