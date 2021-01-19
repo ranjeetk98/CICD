@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>CICD_selenium</groupId>
-  <artifactId>CICD_selenium</artifactId>
+  <groupId>CICD</groupId>
+  <artifactId>CICD</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
    <build>
@@ -14,7 +14,8 @@
         <configuration>
           <verbose>true</verbose>
           <fork>true</fork>
-          <executable>/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.191.b12-1.el7_6.x86_64/bin/javac</executable>
+  <!--      <executable>D:\Users\rkumar4\Java\bin\javac</executable> -->
+      <executable>/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.272.b10-1.amzn2.0.1.x86_64-debug/javac</executable>  
           </configuration>
       </plugin>
     
