@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23856" started-at="2021-01-10T17:59:54 IST" finished-at="2021-01-10T18:00:18 IST">
+  <suite name="Suite" duration-ms="12735" started-at="2021-01-19T17:39:48 IST" finished-at="2021-01-19T17:40:01 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23856" started-at="2021-01-10T17:59:54 IST" finished-at="2021-01-10T18:00:18 IST">
+    <test name="Test" duration-ms="12735" started-at="2021-01-19T17:39:48 IST" finished-at="2021-01-19T17:40:01 IST">
       <class name="cheapAir.LaunchApp">
-        <test-method status="PASS" signature="launchUrl()[pri:0, instance:cheapAir.LaunchApp@6737fd8f]" name="launchUrl" duration-ms="23801" started-at="2021-01-10T17:59:54 IST" finished-at="2021-01-10T18:00:18 IST">
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:cheapAir.LaunchApp@a7e666]" name="launchUrl" duration-ms="12694" started-at="2021-01-19T17:39:48 IST" finished-at="2021-01-19T17:40:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchUrl -->
