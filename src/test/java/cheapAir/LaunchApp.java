@@ -13,11 +13,12 @@ public class LaunchApp {
 		public void launchUrl() throws InterruptedException {
 
 			System.setProperty("webdriver.chrome.driver", "./resources/chromedriver.exe");
-			
 			WebDriver driver = new ChromeDriver();			
-			driver.get("https://www.cheapair.com/");			
+						
 			driver.manage().window().maximize();			
 			driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
+			
+			driver.get("https://www.cheapair.com/");
 			Thread.sleep(5000);
 			
 			driver.close();
