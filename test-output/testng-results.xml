@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11639" started-at="2022-03-19T17:11:30 IST" finished-at="2022-03-19T17:11:41 IST">
+  <suite name="Default suite" duration-ms="16993" started-at="2022-03-20T01:46:35 IST" finished-at="2022-03-20T01:46:52 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11639" started-at="2022-03-19T17:11:30 IST" finished-at="2022-03-19T17:11:41 IST">
+    <test name="Default test" duration-ms="16993" started-at="2022-03-20T01:46:35 IST" finished-at="2022-03-20T01:46:52 IST">
       <class name="com.Booking.BookingTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Booking.BookingTest@7a30d1e6]" name="setup" is-config="true" duration-ms="7159" started-at="2022-03-19T17:11:30 IST" finished-at="2022-03-19T17:11:37 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Booking.BookingTest@74a10858]" name="setup" is-config="true" duration-ms="9514" started-at="2022-03-20T01:46:35 IST" finished-at="2022-03-20T01:46:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="launchBooking()[pri:0, instance:com.Booking.BookingTest@7a30d1e6]" name="launchBooking" duration-ms="3618" started-at="2022-03-19T17:11:37 IST" finished-at="2022-03-19T17:11:40 IST">
+        <test-method status="PASS" signature="searchStay()[pri:0, instance:com.Booking.BookingTest@74a10858]" name="searchStay" duration-ms="7443" started-at="2022-03-20T01:46:44 IST" finished-at="2022-03-20T01:46:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBooking -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Booking.BookingTest@7a30d1e6]" name="tearDown" is-config="true" duration-ms="833" started-at="2022-03-19T17:11:40 IST" finished-at="2022-03-19T17:11:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- searchStay -->
       </class> <!-- com.Booking.BookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

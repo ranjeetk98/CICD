@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)" parallel="classes">
+  <listeners>
+    <listener class-name="analyzer.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
       <class name="com.Booking.BookingTest">
         <methods>
-          <include name="launchApp"/>
+          <include name="launchBooking"/>
+          <include name="searchStay"/>
           <include name="setup"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- com.Booking.BookingTest -->
     </classes>

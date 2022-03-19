@@ -7,9 +7,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.booking.StaySearch;
 import com.qa.base.TestBase;
 
 public class BookingTest extends TestBase {
+	
+	StaySearch staySearch;
 
     BookingTest(){
         super();
@@ -19,14 +22,23 @@ public class BookingTest extends TestBase {
     @BeforeMethod
     public void setup(){
         initializeBrowser(prop.getProperty("browser1"));
+        driver.get(prop.getProperty("bookingUrl"));
+        staySearch = new StaySearch();
     }
 
-    @Test
+   @Test
     public void launchBooking(){
-        driver.get(prop.getProperty("bookingUrl"));
-        WebElement element = driver.findElement(By.xpath("//*[@class='hero-banner-wrapper']//div[contains(text(),'Find your next stay')]"));
-        String subHeading = element.getText();
+        
+        staySearch.navigateToStays();
+        String subHeading = staySearch.getStayHeader();     
         Assert.assertEquals(subHeading,"Find your next stay");
+    }
+    
+    @Test
+    public void searchStay() throws InterruptedException {  	
+    	StaySearch.searchStay();
+    	Assert.assertEquals(staySearch.getTopPicks(), "Top picks for long stays");   
+    	
     }
 
     @AfterMethod
